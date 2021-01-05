@@ -1,66 +1,157 @@
-/* Layout */
-.main {
-    display: flex;
-    padding: 2em;
-    height: 90vh;
-    justify-content: center;
-    align-items: middle;
+/*
+#254441 = dark slate grey
+
+#links colors:
+a{
+}
+a:link{
+}
+a:visited{
+	
+};
+a:focust{
+}
+a:active{
+}
+a:hover{
+}
+*/
+
+/* Global Styles
+-------------------------------*/
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
 }
 
-.clockbox,
-#clock {
-    width: 100%;
+body{
+	background: rgba(207,222,231, 0.2);
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 1.5;
+}
+a{
+	color: #ffe66d;
+}
+a:hover{
+	text-decoration: none;
+}
+h2{
+	margin: 0;
+}
+h1,h2{
+	font-family: 'Caveat', cursive; 
+	font-weight: 400;
+	margin: 0;
+}
+.content-wrap{
+	width: 900px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+p{
+	line-height: 20px;
 }
 
-/* Clock styles */
-.circle {
-    fill: none;
-    stroke: #000;
-    stroke-width: 9;
-    stroke-miterlimit: 10;
+/* Profile
+-------------------------------*/
+.avatar{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header{
+	color: #254441;
+/*	background: #878e99;*/
+	margin: 0 auto;
+	text-align: center;
+}
+header h1{
+	text-align: center;
+	font-size: 100px;
+	line-height: 1;
 }
 
-.mid-circle {
-    fill: #000;
+/* Projects
+-------------------------------*/
+.projects{
+	background: #E0EEC6
 }
-.hour-marks {
-    fill: none;
-    stroke: #000;
-    stroke-width: 9;
-    stroke-miterlimit: 10;
+.projects a{
+
 }
 
-.hour-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 17;
-    stroke-miterlimit: 10;
+.projects .btn{
+	color: #f7fff7;
+	padding: 8px;
+	background: #254441;
+	text-decoration: none;
+	border-radius: 4px;
+	display: inline-block;
+}
+.projects .btn:hover{
+	background: rgba(37,68,65,80%);
 }
 
-.minute-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 11;
-    stroke-miterlimit: 10;
+.project-item{
+	overflow: hidden;
+	border-bottom: 1px dashed #254441;
+	padding: 25px 0;
 }
 
-.second-arm {
-    fill: none;
-    stroke: #000;
-    stroke-width: 4;
-    stroke-miterlimit: 10;
+.project-item img{
+	float: left;
+	margin-right: 20px;
 }
 
-/* Transparent box ensuring arms center properly. */
-.sizing-box {
-    fill: none;
+.project-item h4{
+	margin-top: 0;
 }
 
-/* Make all arms rotate around the same center point. */
-/* Optional: Use transition for animation. */
-#hour,
-#minute,
-#second {
-    transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
+
+/* Work Experience
+-------------------------------*/
+.work-experience{
+	background: #FF934F
 }
+
+/* Education
+-------------------------------*/
+.education{
+	background: #058c42
+}
+
+
+/* Contact info
+-------------------------------*/
+footer{
+	background: #34252F;
+	color: #f7fff7;
+	text-align: center;
+}
+footer a{
+	color: #E0EEC6;
+	text-decoration: none;
+}
+.contact-list{
+ 	list-style-type: none;
+ 	padding: 0;
+ 	display: flex;
+ 	justify-content: center;
+}
+.contact-list a:hover{
+	text-decoration: underline;
+}
+.contact-list a{
+	padding: 15px;
+	display: inline-block;
+}
+
+
+
+
+
