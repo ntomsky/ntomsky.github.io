@@ -1,40 +1,119 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A Digital Analog Clock</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    <script src="script.js" defer></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NikitaTomsky/resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+  <!--       <div class="avatar">
+          <img src="images/IMG_8952.jpg" width="120" height="150">
+        </div> -->
+        <div class="content-wrap">      
+          <h1>Nikita Tomsky</h1>
+          <h2>Full Stack Developer in the Making</h2>
 
-<body>
-<main class="main">
-    <div class="clockbox">
-        <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
-            <g id="face">
-                <circle class="circle" cx="300" cy="300" r="253.9"/>
-                <path class="hour-marks" d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6"/>
-                <circle class="mid-circle" cx="300" cy="300" r="16.2"/>
-            </g>
-            <g id="hour">
-                <path class="hour-arm" d="M300.5 298V142"/>
-                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
-            </g>
-            <g id="minute">
-                <path class="minute-arm" d="M300.5 298V67"/>
-                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
-            </g>
-            <g id="second">
-                <path class="second-arm" d="M300.5 350V55"/>
-                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
-            </g>
-        </svg>
-    </div><!-- .clockbox -->
-</main>
+          <p>I'm a senior at Georgia State University with a graduation date of December 2021.
+          In search of an opportunity to start my career in Software Development or Consuting
+          </p>
+        </div>
+      </header>
 
-</body>
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class="projects">
+        <div class="content-wrap"> 
+          <h2>Featured Projects</h2>
+          <!-- <p>View selected projects below. More information can be found at <a class="btn" href="http://nikitatomsky.com">nikitatomsky.com</a>.
+          </p> -->
+        <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project-item"> 
+            <img src="images/thumbnail-1.jpg" alt="description of image">     
+            <h4>Flight Reservation Desktop Application</h4>
+            <p>GUI Development - JavaFX/FMXL.</p>
+            <p>Business Logic - Java 8</p>
+            <p>Database - MySQL</p>
+            <a class="btn" href="https://github.com/ntomsky/Flight_Booking_App" target="_blank">View project / case study</a>         
+          </section>
 
+          <section class="project-item">    
+            <img src="images/thumbnail-2.jpg" alt="description of image">    
+            <h4>Systems Analysis – Patterson Superstore Mobile Application</h4>
+            <p>Collaborated in the design of an appointment scheduling system using activity
+            diagrams and use-case diagrams created in Visual Paradigm</p>
+            <a class="btn" href="#" target="_blank">View project / case study</a>     
+          </section>
+
+        </div>
+      </section>
+        <!-- End of Project block. -->
+
+
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section class="work-experience">
+        <div class="content-wrap"> 
+          <h2>Work Experience</h2>
+          <h3> </h3> 
+          <p> 
+
+          </p>
+
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section id="experience"> 
+          <h3>Senior Account Executive</h3>
+          <p>Sharp Electronics Corporation, Alpharetta, GA</p>
+          <p>07/2016 - present</p>
+          <p>
+            Consulted over 400 companies with complex business challenges. Uncovered inefficiencies, implemented innovative technology, and optimized the processes. Optimization methods included restructuring financial contracts, automating document workflows, providing professional services. Increased the productivity by up to 15% and reduced the cost of operation by up to 20%.
+          </p>
+
+          <!--
+          <p>Optional list:</p>
+          <ul>
+            <li>Delete this list if you don't need it.</li>
+            <li>Created...</li>
+            <li>Lead...</li>
+            <li>Responsible for...</li>
+          </ul>
+        -->
+        </section>
+        <!-- End of Job block. -->
+      </div>
+      </section>
+
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <section class="education">
+        <div class="content-wrap"> 
+          <h2>Education</h2>
+
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>GEORGIA STATE UNIVERSITY, J. Mack Robinson College of Business - Atlanta, GA</h3>
+            <p>B.B.A, Computer Information Systems - concentration in Application Development and Data Analytics, 2015 - 2021</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+        <div class="content-wrap"> 
+          <h2>Let's Keep in Touch!</h2>
+
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="contact-list">
+            <li><a href="mailto:nikita.tomsky@gmail.com">nikita.tomsky@gmail.com</a></li>
+            <li><a href="http://nikitatomsky.com" target="_blank">nikitatomsky.com</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/nikitatomsky" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
-
