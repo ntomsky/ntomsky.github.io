@@ -8,6 +8,16 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+      <nav class = "top-nav">
+          <ul>
+              <li><a href = "#education">Education</a></li>      
+              <li><a href = "#projects">Projects</a></li>
+              <li><a href = "#work-experience">Work Experience</a></li>
+              <li><a href = "#bio">Bio</a></li>
+              <!-- <li><a href = "#hobbies">Hobbies</a></li> -->
+              <li><a href = "#contact">Contact</a></li>
+          </ul>
+      </nav>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
@@ -16,36 +26,98 @@
         </div> -->
         <div class="content-wrap">      
           <h1>Nikita Tomsky</h1>
-          <h2>Full Stack Developer in the Making</h2>
+          <h3>Software Developer with Business Acumen</h3>
 
-          <p>I'm a senior at Georgia State University with a graduation date of December 2021.
-          In search of an opportunity to start my career in Software Development or Consuting
-          </p>
+          <p id = "intro">
+          In search of an opportunity to shift my career towards Software Development  
+          </p> 
         </div>
       </header>
+
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <section class="education">
+        <div class="content-wrap"> 
+          <h3><a name = "education"></a>Education</h3>
+
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h4>GEORGIA STATE UNIVERSITY, J. Mack Robinson College of Business - Atlanta, GA</h4>
+            <p>B.B.A, Computer Information Systems - concentration in Application Development and Data Analytics, 2015 - 2021</p>
+          </section>
+          
+          <section>
+            <h4>BARNAUL STATE UNIVERSITY, - Barnaul, Russia</h4>
+            <p>B.A. Interpreting and Cross-Cultural Communication,                2004 - 2008</p>
+          </section>
+         
+        </div>
+      </section>
+         <!-- End of School block. -->
+
+        <!-- ********************SKILLS********************************-->
+        <section class = "skills">
+            <div class = "content-wrap">
+              <h3>Skills</h3>
+                  <table >
+                      <tr>
+                          <td>Java SE 8</td>
+                          <td>Oracle SQL</td>
+                          <td>MySQL</td>
+                          <td>HTML5</td>
+                          <td>CSS3</td>
+                      </tr>
+                      <tr>
+                          <td>Python</td>
+                          <td>Javascript</td>
+                          <td>GitHub</td>
+                          <td>IntelliJ IDEA</td>
+                          <td>Bilingual (Russian)</td>
+                      </tr>           
+                  </table>
+          </div>
+        </section>
+        <!-- End of Skills block. -->
+      <!-- ********************CERTIFICATIONS********************************-->
+      <section class = "certs">
+        <div class = "content-wrap">
+           <h3> Certifications</h3>
+           <h4> Oracle Certified Associates, Java SE 8 Programmer</h4>
+           <figcaption>
+            <img src="images/OCA logo.png"
+            alt="OCA logo"
+            height="150"
+            width="150"
+            usemap="#ocaLogo-map">
+    
+            <map name="ocaLogo-map">
+                <area alt="" title="here" 
+                
+                shape="square" coords="0,150,150,0"
+                href="https://www.youracclaim.com/badges/1718910a-7ba8-4970-a830-f4f1474281c7/public_url"
+                target="_blank" />
+            </map>
+           </figcaption>
+           <p> <a href = "https://www.youracclaim.com/badges/1718910a-7ba8-4970-a830-f4f1474281c7/public_url" target = "_blank">View Verification</a></p>
+        </div>
+      </section>        
+      <!-- End of Cert block. -->    
+
+    
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
         <div class="content-wrap"> 
-          <h2>Featured Projects</h2>
+          <h3><a  name = "projects"></a>Featured Projects</h3>
           <!-- <p>View selected projects below. More information can be found at <a class="btn" href="http://nikitatomsky.com">nikitatomsky.com</a>.
           </p> -->
         <!-- Copy the whole <section> block to add more projects. -->
           <section class="project-item"> 
-            <img src="images/thumbnail-1.jpg" alt="description of image">     
+            <img src="images/starki.jpg" height="200" width="300" alt="plane in the sky">     
             <h4>Flight Reservation Desktop Application</h4>
-            <p>GUI Development - JavaFX/FMXL.</p>
+            <p>GUI Development - JavaFX, FMXL, Splash</p>
             <p>Business Logic - Java 8</p>
             <p>Database - MySQL</p>
             <a class="btn" href="https://github.com/ntomsky/Flight_Booking_App" target="_blank">View project / case study</a>         
-          </section>
-
-          <section class="project-item">    
-            <img src="images/thumbnail-2.jpg" alt="description of image">    
-            <h4>Systems Analysis – Patterson Superstore Mobile Application</h4>
-            <p>Collaborated in the design of an appointment scheduling system using activity
-            diagrams and use-case diagrams created in Visual Paradigm</p>
-            <a class="btn" href="#" target="_blank">View project / case study</a>     
           </section>
 
         </div>
@@ -56,62 +128,113 @@
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
         <div class="content-wrap"> 
-          <h2>Work Experience</h2>
-          <h3> </h3> 
-          <p> 
-
+          <h3><a name = "work-experience"></a>Work Experience</h3>
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section id="experience"> 
+          <h4>Senior Account Executive</h4>
+          <table>
+              <tr>
+                <td style="padding-right: 400px;">Sharp Electronics Corporation, Alpharetta, GA</td>
+                <td>06/2016 - present</td>
+              </tr>
+          </table>
+        
+          <p id = "jobDescription">
+            Consulted over 400 companies with complex business challenges. 
+            Uncovered inefficiencies, implemented innovative technology, 
+            and optimized the processes. Optimization methods included 
+            restructuring financial contracts, automating document workflows,
+             providing professional services. Increased the productivity by up 
+             to 15% and reduced the cost of operation by up to 20%.
           </p>
+          </section>
+          <!-- Copy this whole <section> block to add more jobs. -->
+        <section id="experience"> 
+            <h4>Account Executive</h4>
+            <table>
+                <tr>
+                  <td style="padding-right: 400px;">Sharp Electronics Corporation, Alpharetta, GA</td>
+                  <td>02/2012 - 06/2016</td>
+                </tr>
+            </table>
+            <p id = "jobDescription">
+                Managed clients' portfolio while serving as a trusted adviser to customer business and IT leaders
+            </p>
+        </section>
 
         <!-- Copy this whole <section> block to add more jobs. -->
         <section id="experience"> 
-          <h3>Senior Account Executive</h3>
-          <p>Sharp Electronics Corporation, Alpharetta, GA</p>
-          <p>07/2016 - present</p>
-          <p>
-            Consulted over 400 companies with complex business challenges. Uncovered inefficiencies, implemented innovative technology, and optimized the processes. Optimization methods included restructuring financial contracts, automating document workflows, providing professional services. Increased the productivity by up to 15% and reduced the cost of operation by up to 20%.
-          </p>
+            <h4>Account Executive</h4>
+            <table>
+                <tr>
+                  <td style="padding-right: 550px;">Docuteam, Alpharetta, GA</td>
+                  <td>10/2010 - 02/2012</td>
+                </tr>
+            </table>
+            <p id = "jobDescription">
+                Cultivated long-lasting relationships with clients at strategic and executional level. Helped expand reach of company’s platform within assigned territory
+            </p>
+        </section>
 
-          <!--
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
-        -->
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section id="experience"> 
+            <h4>Service Manager</h4>
+             <table>
+                <tr>
+                  <td style="padding-right: 525px;">Altodigital Inc, Alpharetta, GA</td>
+                  <td style="margin-right: 0px;">09/2009 - 10/2010</td>
+                </tr>
+            </table>
+            <p id = "jobDescription">
+                Served as a liaison between end users and service engineers on routine and ad-hoc support
+            </p>
         </section>
         <!-- End of Job block. -->
       </div>
       </section>
 
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
+      <!---- Bio ______----------------------->
+      <section class = "bio">
         <div class="content-wrap"> 
-          <h2>Education</h2>
-
-          <!-- Copy this whole <section> block to add more schools. -->
-          <section>
-            <h3>GEORGIA STATE UNIVERSITY, J. Mack Robinson College of Business - Atlanta, GA</h3>
-            <p>B.B.A, Computer Information Systems - concentration in Application Development and Data Analytics, 2015 - 2021</p>
-          </section>
-          <!-- End of School block. -->
-        </div>
+            <h3><a name = "bio"></a>Bio</h3>
+            <p id = "bio-content">
+                Having studied linguistics in Russia,
+                 I immigrated to the US in 2008 and started a career 
+                 in Corporate Sales. 7 years later, I went back to school 
+                 for a CIS degree majoring in Application Development.
+                  After solving business challenges for 11 years and learning programming, 
+                  I have acquired a skillset of understanding the complexity of software development 
+                  and its impacts on crucial business processes.
+            </p>
       </section>
-
+    <!------------end of Bio -->
+         <!---- Hobbies ______----------------------->
+         <!-- <section class = "hobbies">
+            <div class="content-wrap"> 
+                <h3><a name = "hobbies"></a>Hobbies</h3>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src = "images/gentsChamps.jpeg" width="450" height="300">
+                    </div>
+                    <div class="grid-item">
+                        <img src ="images/weInSF.jpg" width="450" height="300">
+                    </div>
+                    <div class="grid-item">3</div>
+                  </div>
+          </section> -->
+        <!------------end of Bio -->
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
         <div class="content-wrap"> 
-          <h2>Let's Keep in Touch!</h2>
+          <h2><a name = "contact"></a>Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
           <ul class="contact-list">
             <li><a href="mailto:nikita.tomsky@gmail.com">nikita.tomsky@gmail.com</a></li>
-            <li><a href="http://nikitatomsky.com" target="_blank">nikitatomsky.com</a></li>
-            <li><a href="#" target="_blank">Twitter</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.linkedin.com/in/nikitatomsky" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/nikitatomsky" target="_blank">LinkedIn</a></li>
           </ul>
+          <p>404-542-8684</p>
+          <p>Smyrna, GA, 30082, USA</p>
         </div>
       </footer>
     </main>

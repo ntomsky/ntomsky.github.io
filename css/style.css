@@ -27,12 +27,13 @@ html{
 }
 
 body{
-	background: rgba(207,222,231, 0.2);
+	background: #FDFFFC;
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-size: 17px;
 	line-height: 1.5;
+
 }
 a{
 	color: #ffe66d;
@@ -40,13 +41,28 @@ a{
 a:hover{
 	text-decoration: none;
 }
+
 h2{
 	margin: 0;
 }
-h1,h2{
-	font-family: 'Caveat', cursive; 
+
+h1{
+	font-size: 56px;
+	line-height: 1.07143;
 	font-weight: 400;
-	margin: 0;
+	letter-spacing: -.005em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	margin-bottom: 25px;
+}
+
+h3{
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 28px;
+	line-height: 1.10722;
+	font-weight: 400;
+	letter-spacing: .004em;
+	margin-top: -6px;
+	margin-bottom: 10px;
 }
 .content-wrap{
 	width: 900px;
@@ -55,6 +71,34 @@ h1,h2{
 }
 p{
 	line-height: 20px;
+	color: #6c757d;
+}
+/* Navigation
+---------------------------------*/
+nav {
+	background-color: #34252F;
+	text-align: center;
+	font-size: 21px;
+	padding: 10px;
+	
+}
+
+.top-nav ul{
+	list-style-type: none;
+}
+.top-nav li{
+	display: inline-block;
+	flex: auto;
+}
+
+.top-nav li a{
+	text-decoration: none;
+	color: #f7fff7;
+	padding: 26px;
+}
+
+.top-nav li a:hover{
+	color: #6c757d
 }
 
 /* Profile
@@ -65,25 +109,49 @@ p{
 	left: 0;
 }
 header{
-	color: #254441;
-/*	background: #878e99;*/
+	color: #011627;
 	margin: 0 auto;
 	text-align: center;
 }
 header h1{
 	text-align: center;
-	font-size: 100px;
+	font-size: 70px;
 	line-height: 1;
+}
+
+#intro, #jobDescription {
+	color: #6c757d;
+	margin-bottom: 0px;
+}
+
+/* Education
+-------------------------------*/
+.education{
+	background: #edf2f4
+}
+
+/* Certifications
+---------------------*/
+.certs a{
+	color: #6c757d;
+	padding-left: 15px;
+}
+.certs{
+	background: #edf2f4;
+}
+
+/* Skills
+---------------------*/
+
+.skills td {
+	padding: 20px;
+}
+.skills tr{
+	margin-right: 50px;
 }
 
 /* Projects
 -------------------------------*/
-.projects{
-	background: #E0EEC6
-}
-.projects a{
-
-}
 
 .projects .btn{
 	color: #f7fff7;
@@ -116,15 +184,34 @@ header h1{
 /* Work Experience
 -------------------------------*/
 .work-experience{
-	background: #FF934F
+	background: #edf2f4;
 }
 
-/* Education
+#jobDescription{
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #254441;
+}
+.work-experience h4{
+	padding-top: 25px;
+	margin: 0px;
+}
+
+
+/* Bio
 -------------------------------*/
-.education{
-	background: #058c42
+#bio-content{
+	margin-bottom: 10px;
+	
 }
 
+/* Hobbies
+-------------------------------*/
+.hobbies{
+	background: #edf2f4;
+}
+.grid-container{
+	display: grid;;
+}
 
 /* Contact info
 -------------------------------*/
