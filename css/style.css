@@ -110,14 +110,16 @@ header{
 	margin: 0 auto;
 	text-align: center;
 	background-image: url('../Images/IMG_0007.jpeg');
-	background-position: center;
+	background-position:right 50% bottom 40%;
 	background-size:cover;
 	height: 100;	
 }
 header h1{
-	text-align: center;
+	text-align: top;
 	line-height: 1;
 	color: #f7fff7;
+	background-color: rgb(108,117,125,0.35);
+	background-size:inherit;
 
 }
 #intro, #jobDescription {
