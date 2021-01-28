@@ -22,18 +22,40 @@
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-  <!--       <div class="avatar">
-          <img src="images/IMG_8952.jpg" width="120" height="150">
-        </div> -->
+      
         <div class="content-wrap">      
           <h1>Nikita Tomsky</h1>
-          <h3>Software Developer with Business Acumen</h3>
-
+          <!-- <h3>Software Developer with Business Acumen</h3> -->
+<!-- 
           <p id = "intro">
           In search of an opportunity to shift my career towards Software Development  
-          </p> 
+          </p>  -->
         </div>
       </header>
+       <!---- Bio ______----------------------->
+       <section class = "bio">
+        <div class="content-wrap"> 
+            <h3><a name = "bio"></a>Bio</h3>
+            <p id = "bio-content">
+                After studying linguistics in Barnaul, Russia,
+                 I immigrated to the US in 2008 and started a career 
+                 in Corporate Sales. 7 years later, I went back to school 
+                 for a degree in Computer Information Systems, Application Development track. 
+                 This is where I felt in love with coding. 
+                 The logic of codes appeared unbiased to me. It either works or it doesn't, albeit proned to inelegance.              
+                <div><p>
+                  I'm currently in the search of a place, where I can apply the skills I've acquired from solving business
+                  challenges and academic programms.
+                </p>
+                </div>
+                <div><p>
+                  When I'm not at my computer coding, I love traveling with my wife, Katie, and Moomoo, cooking, reading, 
+                    and play ice hockey. 
+                  </p>
+                </div>
+            </p>
+      </section>
+      <!--end of Bio-->
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
@@ -54,59 +76,53 @@
         </div>
       </section>
          <!-- End of School block. -->
+        <!-- ********************CERTIFICATIONS********************************-->
+        <section class = "certs">
+          <div class = "content-wrap">
+            <h3> Certifications</h3>
+            <h4> Oracle Certified Associates, Java SE 8 Programmer</h4>
+            <figcaption>
+              <img src="Images/OCA logo.png"
+              alt="OCA logo"
+              height="150"
+              width="150"
+              usemap="#ocaLogo-map">
 
+              <map name="ocaLogo-map">
+                  <area alt="" title="here" 
+                  
+                  shape="square" coords="0,150,150,0"
+                  href="https://www.youracclaim.com/badges/1718910a-7ba8-4970-a830-f4f1474281c7/public_url"
+                  target="_blank" />
+              </map>
+            </figcaption>
+            <p> <a href = "https://www.youracclaim.com/badges/1718910a-7ba8-4970-a830-f4f1474281c7/public_url" target = "_blank">View Verification</a></p>
+          </div>
+        </section>        
+        <!-- End of Cert block. -->    
         <!-- ********************SKILLS********************************-->
         <section class = "skills">
             <div class = "content-wrap">
-              <h3>Skills</h3>
-              
-              
-              
+              <h3>Skills</h3>  
               <table >
-                      <tr>
-                          <td>Java SE 8</td>
-                          <td>Oracle SQL</td>
-                          <td>MySQL</td>
-                          <td>HTML5</td>
-                          <td>CSS3</td>
-                      </tr>
-                      <tr>
-                          <td>Python</td>
-                          <td>Javascript</td>
-                          <td>GitHub</td>
-                          <td>IntelliJ IDEA</td>
-                          <td>Bilingual (Russian)</td>
-                      </tr>           
-                  </table>
-          </div>
+                <tr>
+                    <td>Java SE 8</td>
+                    <td>Oracle SQL</td>
+                    <td>MySQL</td>
+                    <td>HTML5</td>
+                    <td>CSS3</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Javascript</td>
+                    <td>GitHub</td>
+                    <td>IntelliJ IDEA</td>
+                    <td>Bilingual (Russian)</td>
+                </tr>           
+            </table>
+            </div>
         </section>
         <!-- End of Skills block. -->
-      <!-- ********************CERTIFICATIONS********************************-->
-      <section class = "certs">
-        <div class = "content-wrap">
-           <h3> Certifications</h3>
-           <h4> Oracle Certified Associates, Java SE 8 Programmer</h4>
-           <figcaption>
-            <img src="Images/OCA logo.png"
-            alt="OCA logo"
-            height="150"
-            width="150"
-            usemap="#ocaLogo-map">
-    
-            <map name="ocaLogo-map">
-                <area alt="" title="here" 
-                
-                shape="square" coords="0,150,150,0"
-                href="https://www.youracclaim.com/badges/1718910a-7ba8-4970-a830-f4f1474281c7/public_url"
-                target="_blank" />
-            </map>
-           </figcaption>
-           <p> <a href = "https://www.youracclaim.com/badges/1718910a-7ba8-4970-a830-f4f1474281c7/public_url" target = "_blank">View Verification</a></p>
-        </div>
-      </section>        
-      <!-- End of Cert block. -->    
-
-    
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
@@ -118,8 +134,8 @@
           <section class="project-item"> 
             <img src="Images/starki.jpg" height="200" width="300" alt="plane in the sky">     
             <h4>Flight Reservation Desktop Application</h4>
-            <p>GUI Development - JavaFX, FMXL, Splash</p>
-            <p>Business Logic - Java 8</p>
+            <p>GUI Development - JavaFX, FXML, Splash</p>
+            <p>Business Logic - Java SE 8</p>
             <p>Database - MySQL</p>
             <a class="btn" href="https://github.com/ntomsky/Flight_Booking_App" target="_blank">View project / case study</a>         
           </section>
@@ -128,34 +144,24 @@
       </section>
         <!-- End of Project block. -->
 
-
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
         <div class="content-wrap"> 
           <h3><a name = "work-experience"></a>Work Experience</h3>
         <!-- Copy this whole <section> block to add more jobs. -->
-        <section id="experience"> 
-          <h4>Senior Account Executive</h4>
-           <p>Sharp Electronics Corporation, Alpharetta, GA </p>     
-           <p>06/2016 - present</p>
-          <p id = "jobDescription">
-            Consulted over 400 companies with complex business challenges. 
-            Uncovered inefficiencies, implemented innovative technology, 
-            and optimized the processes. Optimization methods included 
-            restructuring financial contracts, automating document workflows,
-             providing professional services. Increased the productivity by up 
-             to 15% and reduced the cost of operation by up to 20%.
-          </p>
-          </section>
-          <!-- Copy this whole <section> block to add more jobs. -->
-        <section id="experience"> 
-            <h4>Account Executive</h4>
-            <p>Sharp Electronics Corporation, Alpharetta, GA</p>
-            <p>02/2012 - 06/2016</p>
-            <p id = "jobDescription">
-                Managed clients' portfolio while serving as a trusted adviser to customer business and IT leaders
-            </p>
-        </section>
+              <section id="experience"> 
+                  <h4>Senior Account Executive</h4>
+                  <p>Sharp Electronics Corporation, Alpharetta, GA </p>     
+                  <p>02/2012 - present</p>
+                  <p id = "jobDescription">
+                    Consulted over 400 companies with complex business challenges. 
+                    Uncovered inefficiencies, implemented innovative technology, 
+                    and optimized the processes. Optimization methods included 
+                    restructuring financial contracts, automating document workflows,
+                    providing professional services. Increased the productivity by up 
+                    to 15% and reduced the cost of operation by up to 20%.
+                  </p>
+              </section>
 
         <!-- Copy this whole <section> block to add more jobs. -->
         <section id="experience"> 
@@ -180,20 +186,7 @@
       </div>
       </section>
 
-      <!---- Bio ______----------------------->
-      <section class = "bio">
-        <div class="content-wrap"> 
-            <h3><a name = "bio"></a>Bio</h3>
-            <p id = "bio-content">
-                Having studied linguistics in Russia,
-                 I immigrated to the US in 2008 and started a career 
-                 in Corporate Sales. 7 years later, I went back to school 
-                 for a CIS degree majoring in Application Development.
-                  After solving business challenges for 11 years and learning programming, 
-                  I have acquired a skillset of understanding the complexity of software development 
-                  and its impacts on crucial business processes.
-            </p>
-      </section>
+     
     <!------------end of Bio -->
          <!---- Hobbies ______----------------------->
          <!-- <section class = "hobbies">

@@ -104,24 +104,32 @@ nav {
 
 /* Profile
 -------------------------------*/
-.avatar{
-	position: fixed;
-	top: 0;
-	left: 0;
-}
+
 header{
-	color: #011627;
+	/* color: #011627; */
 	margin: 0 auto;
 	text-align: center;
+	background-image: url('../images/IMG_0007.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100;
 }
 header h1{
-	text-align: center;
 	font-size: 70px;
 	line-height: 1;
+	color: #f7fff7;
+
+}
+header h3{
+	margin-top: 150px;
+	margin-bottom: -30px;
+	text-align: center;
+	line-height: 1;
+	color: #AFCBFF;
 }
 
 #intro, #jobDescription {
-	color: #6c757d;
+	color: #254441;
 	margin-bottom: 0px;
 }
 
@@ -133,22 +141,30 @@ header h1{
 
 /* Certifications
 ---------------------*/
+
+
 .certs a{
 	color: #6c757d;
 	padding-left: 15px;
 }
 .certs{
-	background: #edf2f4;
+
 }
 
 /* Skills
 ---------------------*/
-
+.grid-container {
+	display: inline-flex;
+	flex-direction: row;
+}
 .skills td {
 	padding: 20px;
 }
 .skills tr{
 	margin-right: 50px;
+}
+.skills{
+	background: #edf2f4;
 }
 
 /* Projects
