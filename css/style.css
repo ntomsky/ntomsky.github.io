@@ -109,10 +109,11 @@ header{
 	/* color: #011627; */
 	margin: 0 auto;
 	text-align: center;
-	background-image: url('../images/IMG_0007.jpg');
+	background-image: url('../Images/IMG_0007.jpg');
 	background-position: center;
 	background-size: cover;
 	height: 100;
+	
 }
 header h1{
 	font-size: 70px;
