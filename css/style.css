@@ -65,10 +65,10 @@ h3{
 	margin-bottom: 10px;
 }
 .content-wrap{
-	max-width: 900px;
+	max-width:width 900px;
 	width: 85%;
 	margin: 0 auto;
-	padding: 60px 0;
+	padding: 70px;
 }
 p{
 	line-height: 20px;
@@ -115,12 +115,13 @@ header{
 	height: 100;	
 }
 header h1{
-	text-align: top;
+	position: top;
 	line-height: 1;
 	color: #f7fff7;
 	background-color: rgb(108,117,125,0.35);
-	background-size:inherit;
-
+}
+header .content-wrap{
+	max-width:fit-content;
 }
 #intro, #jobDescription {
 	color: #254441;
@@ -143,18 +144,19 @@ header h1{
 
 /* Skills
 ---------------------*/
-.grid-container {
-	display: inline-flex;
-	flex-direction: row;
+.float-child{
+	float: left;
 }
-.skills td {
-	padding: 20px;
-}
-.skills tr{
-	margin-right: 50px;
-}
+
 .skills{
 	background: #edf2f4;
+	padding-bottom: 155px;
+
+}
+.skill li{
+	padding: 0px;
+	margin-top: -10px;
+
 }
 
 /* Projects
