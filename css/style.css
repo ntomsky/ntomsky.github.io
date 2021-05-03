@@ -121,11 +121,14 @@ header h1{
 	background-color: rgb(108,117,125,0.35);
 }
 header .content-wrap{
-	max-width:fit-content;
+	max-width:fit-content;	
 }
 #intro, #jobDescription {
 	color: #254441;
 	margin-bottom: 0px;
+}
+#gitlogo, #linkedLogo{
+	position: top;
 }
 
 
@@ -137,10 +140,31 @@ header .content-wrap{
 
 /* Certifications
 ---------------------*/
+.logos{
+	padding: 30;
+	margin-left: 58px;
+}
 .certs a{
 	color: #6c757d;
 	padding-left: 15px;
 }
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/* padding-left: 100px; */
+	padding-bottom: 50px;
+	padding-top: 15px;
+	margin: 5px 30px;
+	color: #6c757d;
+}
+
+.h3forBlocks{
+	margin-left: 158px;
+	padding-top: 50px;
+}
+
 
 /* Skills
 ---------------------*/
@@ -242,8 +266,8 @@ footer a{
 	text-decoration: underline;
 }
 .contact-list a{
-	padding: 15px;
 	display: inline-block;
+	position: relative;
 }
 
 
